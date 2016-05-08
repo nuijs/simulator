@@ -14,8 +14,10 @@ Currently, this simulator works for a Leap Motion controller.
 
  - cd to leapmotion/ directory 
  
- - npm install node app (*creates a http
-   server to server files from the public/ directory*) Runs on port 5000
+ - npm install 
+
+ - node app (*creates a http server to server files from the public/ directory*) 
+   Runs on port 5000
    
  - node websocket (*creates a websocket server to be used with leap.js*)
    Runs on port 3000 
