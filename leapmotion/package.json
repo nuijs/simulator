@@ -1,0 +1,15 @@
+{
+  "name": "simulator",
+  "version": "1.0.0",
+  "description": "simulator for motion sensing devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Princiya Marina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "ws": "^1.0.1"
+  }
+}

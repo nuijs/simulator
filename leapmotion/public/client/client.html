@@ -1,0 +1,22 @@
+<html>
+	<body>
+		<p id = 'p'></p>
+		
+		<script>
+		
+			function setupWebSocket() {
+				var ws = new WebSocket("ws://localhost:3000/");
+				ws.onopen = function() {
+					console.log("client connected");
+				}
+				ws.onmessage = function(e) {
+					document.getElementById("p").innerHTML = e.data;
+					console.log('data from socket', JSON.parse(e.data));
+				}
+				return ws;
+			}
+			var ws = setupWebSocket();
+		
+		</script>
+	</body>
+</html>
