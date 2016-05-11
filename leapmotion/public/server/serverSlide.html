@@ -1,0 +1,23 @@
+<html>
+	<h1>Server</h1>
+	<p>
+		Wave your hands left/right!
+	</p>
+	<canvas width="640" height="480" id="myCanvas"></canvas>
+	
+	<script type = 'text/javascript'>
+		function setupWebSocket() {
+			var ws = new WebSocket("ws://localhost:3000/");
+			ws.onopen = function() {
+				console.log("camera connected");
+			}
+			return ws;
+		}
+		var ws = setupWebSocket();
+	
+
+		initializeWebcamSwiper();
+
+	</script>
+	
+</html>

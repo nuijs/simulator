@@ -23,7 +23,7 @@ Currently, this simulator works for a Leap Motion controller.
    Runs on port 3000 
    
  - Open a web browser (Chrome, FireFox) and run
-   http://localhost:5000/server/server.html 
+   http://localhost:5000/server/serverDraw.html 
    
  - In another browser window/tab run http://localhost:5000/client/client.html 
  
