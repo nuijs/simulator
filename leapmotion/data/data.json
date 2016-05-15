@@ -1,17 +1,3 @@
-{"event":
-	{
-		"state":
-		{
-			"attached":true,
-			"id":"LP21549084545",
-			"streaming":true,
-			"type":"peripheral"
-		},
-		"type":"deviceEvent"
-	}
-}
-
-
 {
 	"currentFrameRate":46.6376,
 	"devices":[],
